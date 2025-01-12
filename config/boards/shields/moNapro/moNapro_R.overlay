@@ -1,4 +1,4 @@
-#include "moNa3.dtsi"
+#include "moNapro.dtsi"
 
 &kscan0 {
         compatible = "zmk,kscan-gpio-charlieplex";

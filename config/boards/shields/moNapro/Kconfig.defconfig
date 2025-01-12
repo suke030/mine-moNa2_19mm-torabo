@@ -1,7 +1,7 @@
-if SHIELD_MONA3_R
+if SHIELD_MONAPRO_R
 
 config ZMK_KEYBOARD_NAME
-    default "moNa3_R"
+    default "moNapro_R"
 
 config ZMK_SPLIT
     default y
@@ -11,10 +11,10 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_MONA3_L
+if SHIELD_MONAPRO_L
 
 config ZMK_KEYBOARD_NAME
-    default "moNa3_L"
+    default "moNapro_L"
 
 config ZMK_SPLIT
     default y

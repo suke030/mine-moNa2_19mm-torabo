@@ -1,0 +1,5 @@
+config SHIELD_MONAPRO_R
+    def_bool $(shields_list_contains,moNapro_R)
+
+config SHIELD_MONAPRO_L
+    def_bool $(shields_list_contains,moNapro_L)
