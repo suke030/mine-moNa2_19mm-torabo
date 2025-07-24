@@ -37,17 +37,6 @@
     };
 };
 
-//&trackball_peripheral_listener {
-//    status = "okay";
-//    scroller {
-//        layers = <0>;   
-//        input-processors =  <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,        //X軸とY軸の入れ替え
-//                            //<&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,       //Y軸反転
-//                            <&zip_xy_to_scroll_mapper>,                         //スクロールモードに変更
-//                            <&zip_scroll_scaler 1 5>;                           //スクロール量を1/4倍
-//    };
-//};
-
 
 &spi0 {
     status = "okay";
