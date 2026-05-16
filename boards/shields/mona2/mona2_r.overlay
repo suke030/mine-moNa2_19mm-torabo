@@ -53,8 +53,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; //P0.02を指定(MOTION)
-        cpi = <600>;
-
+       
         //pmw用
         //cpi = <600>;
         //evt-type = <INPUT_EV_REL>;
@@ -68,6 +67,7 @@
 &trackball_central_listener {
     status = "okay";
     device = <&trackball_central>;
+    input-processors = <&zip_xy_scaler 3 2>;  // カーソルを1.5倍速に（分子/分母で調整）
 
     scroller {
         layers = <3>;
