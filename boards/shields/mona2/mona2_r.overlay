@@ -67,7 +67,7 @@
 &trackball_central_listener {
     status = "okay";
     device = <&trackball_central>;
-    input-processors = <&zip_xy_scaler 2 1>,  // カーソルを2.0倍速に（分子/分母で調整）
+    input-processors = <&zip_xy_scaler 3 2>,  // カーソルを1.5倍速に（分子/分母で調整）
     <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,   // X軸反転
     <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>;   // Y軸反転
 
