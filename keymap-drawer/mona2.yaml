@@ -109,8 +109,8 @@ layers:
   - (
   - '='
   - {t: ▽, type: trans}
-  - '&m_l_kakko'
-  - '&m_r_kakko'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
