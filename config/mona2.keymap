@@ -51,7 +51,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LALT &kp N1 &kp N4 &kp N9>,
+                <&kp LALT &kp NUMBER_1 &kp NUMBER_4 &kp NUMBER_9>,
                 <&macro_release>;
 
             label = "TO_LAYER_0";
