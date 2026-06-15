@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - {t: '''', h: RIGHT SHIFT}
+  - ''''
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -33,7 +33,7 @@ layers:
   - M
   - ','
   - .
-  - '&m_chuten'
+  - {t: /, h: LSHIFT}
   - LCTRL
   - LEFT ALT
   - LEFT WIN
