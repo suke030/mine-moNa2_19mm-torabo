@@ -24,14 +24,9 @@
     combos {
         compatible = "zmk,combos";
 
-        move_layer4 {
-            bindings = <&mo 4>;
-            key-positions = <39 38>;
-        };
-
         tab {
             bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            key-positions = <11 10>;
         };
 
         Semicolon {
