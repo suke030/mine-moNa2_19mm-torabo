@@ -67,8 +67,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
-  - '2'
-  - '3'
+  - KP 2
+  - KP 3
   - Sft+KP EQUAL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
