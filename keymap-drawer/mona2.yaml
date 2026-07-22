@@ -69,7 +69,7 @@ layers:
   - '1'
   - KP 2
   - KP 3
-  - Sft+KP EQUAL
+  - KP EQUAL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
