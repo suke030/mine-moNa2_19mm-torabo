@@ -129,8 +129,8 @@
             bindings = <
 &kp LS(KP_ASTERISK)  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_8  &kp LS(KP_PLUS)                    &kp PAGE_UP    &kp HOME  &kp UP    &kp END    &trans
 &kp KP_DIVIDE        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS               &trans  &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&trans               &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_EQUAL     &trans    &trans  &trans         &trans    &trans    &trans     &kp KP_NUMLOCK
-&trans               &kp KP_NUMBER_0  &kp PERIOD       &trans           &trans           &trans    &trans  &trans                                        &trans
+&trans               &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(MINUS)    &trans    &trans  &trans         &trans    &trans    &trans     &kp KP_NUMLOCK
+&trans               &kp KP_NUMBER_0  &kp KP_DOT       &trans           &trans           &trans    &trans  &trans                                        &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
